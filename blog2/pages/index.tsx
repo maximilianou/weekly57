@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Menu from '../components/Menu'
+import MenuR from '../components/MenuR'
 import SFooter from '../components/SFooter'
 import styles from '../styles/Home.module.css'
 
@@ -26,6 +27,7 @@ const Home: NextPage = () => {
 
       </main>
       <Menu></Menu>
+      <MenuR></MenuR>
       <SFooter></SFooter>
     </div>
   )
