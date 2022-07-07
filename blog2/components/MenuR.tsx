@@ -1,24 +1,13 @@
-# weekly57
 
+const MenuR = () => {
 
--------
-
--------
-
-
-
---------
-2. - Menu style react and tailwindcss
-
-```tsx
-const Menu = (  ) => {
   const menuStyle = `fixed w-[100px] top-20
-    transition-all -left-20  hover:left-0
+    transition-all -right-20  hover:right-0
   `;
   const manuItemStyle = `p-4 
     inline-block w-full
     rounded-xl bg-[rgb(100,100,100,0.5)] `;
-  // this list of items and links can came from othe data source kind of blog entries
+
   const menuItemData: { link:string , text:string }[] = [
     {
       link: `#`,
@@ -37,6 +26,7 @@ const Menu = (  ) => {
       text: `Contact`,
     },
   ]
+
   return (
   <div className={menuStyle} >
     { menuItemData && menuItemData.map( ({ link, text }, indx) => (
@@ -45,17 +35,4 @@ const Menu = (  ) => {
   </div>
   )
 };
-export default Menu;
-```
-
-------
-1. - 
-
-```
-npx create-next-app blog2 --typescript 
-cd blog2
-npm install -D tailwindcss postcss autoprefixer
-
-```
-
-------
+export default MenuR;
