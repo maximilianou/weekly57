@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import styles from '../styles/Footer.module.css';
 const SFooter = () => {
   const footerItem: { href: string; content: string, imageSrc: string }[] = [
     { href: "https://github.com/maximilianou/", 
@@ -28,16 +28,16 @@ const SFooter = () => {
     },
   ];
   return (
-    <footer className={footerStyle}>
-      <ul className={ulStyle}>
+    <footer className={styles.footerStyle}>
+      <ul className={styles.ulStyle}>
         {footerItem.map((data, index ) => (
-          <li key={index} className={`${liStyle} `} >
+          <li key={index} className={`${styles.liStyle} `} >
             <Link href={data.href} target={"_blank"}>
-              <button className={buttonStyle}>
+              <a className={styles.buttonStyle}>
                 { data.imageSrc && <Image width={40} height={30} src={data.imageSrc} alt={data.content} /> }
                 { data.content }
-              </button>
-            </Link>
+              </a>
+            </Link>            
           </li>
         ))}
       </ul>
@@ -46,22 +46,3 @@ const SFooter = () => {
 };
 export default SFooter;
 
-const ulStyle = `flex space-x-3`;
-const liStyle = `
-  bg-orange-500 shadow-lg shadow-orange-500/50
-  text-slate-100
-  rounded-xl
-  p-2 
-  `;
-const buttonStyle = `
-  bg-[#fb7b04] 
-  text-slate-100 font-sans font-semibold
-  p-0
-`;
-
-const footerStyle = `
-  bg-transparent
-  py-4 px-6 
-  text-sm font-medium
-  flex justify-center  
-`;

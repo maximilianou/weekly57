@@ -4,9 +4,19 @@
 -------
 
 -------
+3. - Styled components - back to emotion react emotion styled components
+   
+```tsx
+$ npx create-next-app blog3 --typescript
+Need to install the following packages:
+  create-next-app@12.2.1
+
+$ npm install -D @emotion/react @emotion/styled
+
+```
 
 
-
+--------
 --------
 2. - Menu style react and tailwindcss
 

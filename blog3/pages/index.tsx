@@ -7,16 +7,6 @@ import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
 
-  const paralaxStyle = `
-    background-image: url('https://simpledoers.eth.limo/video_bg.mp4');
-    height: 100%; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  `;
-
-
   return (
     <div className={styles.container}>
       <Head>
@@ -27,18 +17,16 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
 
-        <div className={styles.grid}>
-
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
+        <div className={styles.paralaxStyle}>Paralax</div>
+        <div className={styles.greenStyle}>green
         </div>
-
-
-
-
+        <div className={styles.paralaxStyle}>Paralax</div>
+        <div className={styles.whiteStyle}>white
+        </div>
+        <div className={styles.paralaxStyle}>Paralax</div>
+        <div className={styles.redStyle}>red
+        </div>
+        <div className={styles.paralaxStyle}></div>
       </main>
       <Menu></Menu>
       <MenuR></MenuR>
@@ -48,4 +36,5 @@ const Home: NextPage = () => {
 }
 
 export default Home
+
 
