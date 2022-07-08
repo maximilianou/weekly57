@@ -1,0 +1,20 @@
+.menuStyle {
+  position: fixed;
+  width: 100px;
+  top: 5rem/* 80px */;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  left: -5rem/* -80px */;
+}
+.menuStyle:hover {
+    left: 0px;
+}
+
+.manuItemStyle {
+padding: 1rem/* 16px */;
+display: inline-block;
+width: 100%;
+border-radius: 0.75rem/* 12px */;
+background-color: rgb(100,100,100,0.5);
+}
