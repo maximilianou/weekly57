@@ -2,10 +2,21 @@
 
 
 -------
+5. 
+
+
+
 
 -------
-3. - Styled components - back to emotion react emotion styled components
-   
+4. - Styled Components pure - back to styled-components
+
+**ups!, Simplefied not using it.**
+
+-------
+3. - Styled components emotion - back to emotion react emotion styled components
+
+**Simplified not using it**
+
 ```tsx
 $ npx create-next-app blog3 --typescript
 Need to install the following packages:
