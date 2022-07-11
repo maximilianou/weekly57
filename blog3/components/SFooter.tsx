@@ -5,26 +5,26 @@ const SFooter = () => {
   const footerItem: { href: string; content: string, imageSrc: string }[] = [
     { href: "https://github.com/maximilianou/", 
       content: "GitHub",
-      imageSrc: "/github_logo.svg" 
+      imageSrc: "./github_logo.svg" 
     },
     {
       href: "https://profile.codersrank.io/user/maximilianou/",
       content: "CodersRank",
-      imageSrc: "/codersrank_logo.svg" 
+      imageSrc: "./codersrank_logo.svg" 
     },
     {
       href: "http://buymeacryptocoffee.xyz/0xdcbb510698bd5d975c907c9166e3ee3de0f8b21b?ref=button_widget",
       content: "Donate a Crypto coffee",
-      imageSrc: "/eth_logo.svg" 
+      imageSrc: "./eth_logo.svg" 
     },
     {
       href: "https://buymeacoffee.com/simpledoers/",
       content: "Donate a coffee",
-      imageSrc: "/cup_of_coffee.svg" 
+      imageSrc: "./cup_of_coffee.svg" 
     },
     { href: "mailto:maximilianou@gmail.com", 
       content: "email",
-      imageSrc: "/max_logo.svg" 
+      imageSrc: "./max_logo.svg" 
     },
   ];
   return (
