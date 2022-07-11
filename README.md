@@ -2,13 +2,16 @@
 
 
 -------
-5. 
+5. - plain css Paralax, menu, footer
+
+next Export
+
 
 
 
 
 -------
-4. - Styled Components pure - back to styled-components
+1. - Styled Components pure - back to styled-components
 
 **ups!, Simplefied not using it.**
 
