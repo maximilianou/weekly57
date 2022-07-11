@@ -21,7 +21,7 @@ const Menu = (  ) => {
   return (
   <div className={styles.menuStyle} >
     { menuItemData && menuItemData.map( ({ link, text }, indx) => (
-      <a key={indx}  href={link} className={styles.manuItemStyle} key={indx} >{text}</a>
+      <a key={indx}  href={link} className={styles.manuItemStyle} >{text}</a>
     ))}
   </div>
   )
