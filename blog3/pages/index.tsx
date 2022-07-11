@@ -31,6 +31,11 @@ const Home: NextPage = () => {
       <Menu></Menu>
       <MenuR></MenuR>
       <SFooter></SFooter>
+      <video className={styles.background_video} loop muted autoPlay  
+        poster="https://simpledoers.eth.limo/max_logo.svg">
+        <source src="https://simpledoers.eth.limo/video_bg.mp4"   
+                type="video/mp4" />
+      </video>
     </div>
   )
 }
