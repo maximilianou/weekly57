@@ -2,7 +2,7 @@
 .menuNavStyle {
   position: fixed;
   width: 100px;
-  top: 5rem/* 80px */;
+  top: 20px;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
