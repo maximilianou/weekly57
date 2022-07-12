@@ -2,20 +2,20 @@ import styles from '../styles/Menu.module.css'
 const Menu = (  ) => {
   const menuItemData: { link:string , text:string }[] = [
     {
-      link: `#`,
-      text: `About`,
+      link: `/`,
+      text: `Home`,
     },
     {
-      link: `#`,
-      text: `Blog`,
+      link: `https://simpledoers.eth.limo`,
+      text: `Do eth`,
     },
     {
-      link: `#`,
-      text: `Projects`,
+      link: `https://simpledoers.com`,
+      text: `Do com`,
     },
     {
-      link: `#`,
-      text: `Contact`,
+      link: `https://github.com/maximilianou`,
+      text: `Github`,
     },
   ]
   return (
@@ -27,4 +27,3 @@ const Menu = (  ) => {
   )
 };
 export default Menu;
-
