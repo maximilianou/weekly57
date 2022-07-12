@@ -1,5 +1,17 @@
 # weekly57
 
+-------
+8. - [TODO]: publish content
+
+
+-------
+7. - [TODO]: content
+
+
+-------
+6. - Deploy nextjs typescript nodejs vercel css html footer menu paralax 
+
+<https://weekly57-maximilianou.vercel.app/>
 
 -------
 5. - plain css Paralax, menu, footer
@@ -196,7 +208,7 @@ background-color: rgb(100,100,100,0.5);
 ```
 
 -------
-1. - Styled Components pure - back to styled-components
+4. - Styled Components pure - back to styled-components
 
 **ups!, Simplefied not using it.**
 
