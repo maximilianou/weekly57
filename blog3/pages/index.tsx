@@ -1,12 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Menu from '../components/Menu'
-import MenuR from '../components/MenuR'
+import MenuNav from '../components/MenuNav'
 import SFooter from '../components/SFooter'
 import styles from '../styles/Home.module.css'
-
 const Home: NextPage = () => {
-
   return (
     <div className={styles.container}>
       <Head>
@@ -15,16 +13,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/max_logo.svg" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.paralaxStyle}>Paralax</div>
-        <div className={styles.greenStyle}>green</div>
-        <div className={styles.paralaxStyle}>Paralax</div>
-        <div className={styles.whiteStyle}>white</div>
-        <div className={styles.paralaxStyle}>Paralax</div>
-        <div className={styles.redStyle}>red</div>
-        <div className={styles.paralaxStyle}></div>
+        <article className={styles.paralaxStyle} id='art01'>Article One</article>
+        <article className={styles.greenStyle}   id='art02'>Article Two</article>
+        <article className={styles.paralaxStyle} id='art03'>Article Three</article>
+        <article className={styles.whiteStyle}   id='art04'>Article Four</article>
+        <article className={styles.paralaxStyle} id='art05'>Article Five</article>
+        <article className={styles.redStyle}     id='art06'>Article Six</article>
+        <article className={styles.paralaxStyle} id='art07'>Article Seven</article>
       </main>
       <Menu></Menu>
-      <MenuR></MenuR>
+      <MenuNav></MenuNav>
       <SFooter></SFooter>
       <video className={styles.background_video} loop muted autoPlay  
         poster="https://simpledoers.eth.limo/max_logo.svg">

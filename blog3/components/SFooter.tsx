@@ -13,7 +13,7 @@ const SFooter = () => {
       imageSrc: "./codersrank_logo.svg" 
     },
     {
-      href: "http://buymeacryptocoffee.xyz/0xdcbb510698bd5d975c907c9166e3ee3de0f8b21b?ref=button_widget",
+      href: "http://buymeacryptocoffee.xyz/simpledoers.eth",
       content: "Donate a Crypto coffee",
       imageSrc: "./eth_logo.svg" 
     },

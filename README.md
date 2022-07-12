@@ -1,5 +1,17 @@
 # weekly57
 
+-------
+8. - [TODO]: publish content
+
+
+-------
+7. - [TODO]: content
+
+
+-------
+6. - Deploy nextjs typescript nodejs vercel css html footer menu paralax 
+
+<https://weekly57-maximilianou.vercel.app/>
 
 -------
 5. - plain css Paralax, menu, footer
@@ -11,12 +23,10 @@ npm run export
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Menu from '../components/Menu'
-import MenuR from '../components/MenuR'
+import MenuNav from '../components/MenuNav'
 import SFooter from '../components/SFooter'
 import styles from '../styles/Home.module.css'
-
 const Home: NextPage = () => {
-
   return (
     <div className={styles.container}>
       <Head>
@@ -25,16 +35,16 @@ const Home: NextPage = () => {
         <link rel="icon" href="/max_logo.svg" />
       </Head>
       <main className={styles.main}>
-        <div className={styles.paralaxStyle}>Paralax</div>
-        <div className={styles.greenStyle}>green</div>
-        <div className={styles.paralaxStyle}>Paralax</div>
-        <div className={styles.whiteStyle}>white</div>
-        <div className={styles.paralaxStyle}>Paralax</div>
-        <div className={styles.redStyle}>red</div>
-        <div className={styles.paralaxStyle}></div>
+        <article className={styles.paralaxStyle} id='art01'>Article One</article>
+        <article className={styles.greenStyle}   id='art02'>Article Two</article>
+        <article className={styles.paralaxStyle} id='art03'>Article Three</article>
+        <article className={styles.whiteStyle}   id='art04'>Article Four</article>
+        <article className={styles.paralaxStyle} id='art05'>Article Five</article>
+        <article className={styles.redStyle}     id='art06'>Article Six</article>
+        <article className={styles.paralaxStyle} id='art07'>Article Seven</article>
       </main>
       <Menu></Menu>
-      <MenuR></MenuR>
+      <MenuNav></MenuNav>
       <SFooter></SFooter>
       <video className={styles.background_video} loop muted autoPlay  
         poster="https://simpledoers.eth.limo/max_logo.svg">
@@ -63,7 +73,7 @@ const SFooter = () => {
       imageSrc: "./codersrank_logo.svg" 
     },
     {
-      href: "http://buymeacryptocoffee.xyz/0xdcbb510698bd5d975c907c9166e3ee3de0f8b21b?ref=button_widget",
+      href: "http://buymeacryptocoffee.xyz/simpledoers.eth",
       content: "Donate a Crypto coffee",
       imageSrc: "./eth_logo.svg" 
     },
@@ -102,20 +112,20 @@ import styles from '../styles/Menu.module.css'
 const Menu = (  ) => {
   const menuItemData: { link:string , text:string }[] = [
     {
-      link: `#`,
-      text: `About`,
+      link: `/`,
+      text: `Home`,
     },
     {
-      link: `#`,
-      text: `Blog`,
+      link: `https://simpledoers.eth.limo`,
+      text: `Do eth`,
     },
     {
-      link: `#`,
-      text: `Projects`,
+      link: `https://simpledoers.com`,
+      text: `Do com`,
     },
     {
-      link: `#`,
-      text: `Contact`,
+      link: `https://github.com/maximilianou`,
+      text: `Github`,
     },
   ]
   return (
@@ -196,7 +206,7 @@ background-color: rgb(100,100,100,0.5);
 ```
 
 -------
-1. - Styled Components pure - back to styled-components
+4. - Styled Components pure - back to styled-components
 
 **ups!, Simplefied not using it.**
 

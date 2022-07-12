@@ -144,21 +144,29 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 8px;
+  border-radius: 8px;
 }
 .greenStyle  { 
   background-color: rgb(10, 240, 0, 0.5); 
   min-height:100vh;   
   width: 100%;
+  padding: 8px;
+  border-radius: 8px;
 }
 .whiteStyle { 
   background-color: rgb(250, 250, 250, 0.5);  
   color: black;
   min-height:100vh;   
   width: 100%;
+  padding: 8px;
+  border-radius: 8px;
 }
 .redStyle { 
   background-color: rgb(240, 10, 0, 0.5);  
   min-height:100vh;   
   min-height: 600px;
   width: 100%;
+  padding: 8px;
+  border-radius: 8px;
 }
