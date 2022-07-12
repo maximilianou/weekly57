@@ -137,6 +137,7 @@
 .paralaxStyle {
   /* background-image: url('/background_code.png') ; */
   background-color: transparent;
+  color: white;
   height: 100vh;
   width: 100%;
   background-attachment: fixed;
@@ -145,17 +146,18 @@
   background-size: cover;
 }
 .greenStyle  { 
-  background-color: green; 
+  background-color: rgb(10, 240, 0, 0.5); 
   min-height:100vh;   
   width: 100%;
 }
 .whiteStyle { 
-  background-color: white;  
+  background-color: rgb(250, 250, 250, 0.5);  
+  color: black;
   min-height:100vh;   
   width: 100%;
 }
 .redStyle { 
-  background-color: red;  
+  background-color: rgb(240, 10, 0, 0.5);  
   min-height:100vh;   
   min-height: 600px;
   width: 100%;
